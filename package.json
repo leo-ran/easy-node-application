@@ -2,6 +2,7 @@
   "name": "@easy-node/application",
   "version": "0.0.1-dev.1",
   "main": "./dist/index.js",
+  "typings": "dist/index.d.ts",
   "license": "MIT",
   "keywords": [
     "@easy-node",
@@ -18,7 +19,11 @@
     "url": "https://github.com/leo-ran/easy-node-application.git",
     "type": "github"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@easy-node/reflect": "^0.0.1-dev.3",
+    "@easy-node/server": "^0.0.1-dev.2",
+    "yaml": "^1.9.2"
+  },
   "devDependencies": {
     "@types/chai": "^4.2.7",
     "@types/mocha": "^5.2.7",

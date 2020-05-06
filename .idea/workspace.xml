@@ -1,13 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="25bdd677-a90a-4bd2-8bcf-26b1a302e44c" name="Default Changelist" comment="" />
+    <list default="true" id="25bdd677-a90a-4bd2-8bcf-26b1a302e44c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/AbstractModule.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ControllerSet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/EnApplication.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/EnApplication.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/HttpMethod.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/ModuleSet.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/AbstractRequestDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnControllerDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnGetDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnModuleDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnOptionsDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnPostDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorators/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/interface.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/server/_HttpServer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/server/_HttpsServer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1bXIjDxUDQY3uS35sRD0xeFu37b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,14 +41,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../reflect" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\easy-node\application\src\lib" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\easy-node\application\src\lib" />
+      <recent name="H:\easy-node\application\src\lib\decorators" />
+      <recent name="H:\easy-node\application\src" />
       <recent name="H:\easy-node\application" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="test" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.test" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -46,11 +97,46 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1588772144313</updated>
-      <workItem from="1588772145910" duration="92000" />
+      <workItem from="1588772145910" duration="6804000" />
+      <workItem from="1588778972666" duration="9904000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="786" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1588779196379">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="786" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1588779196379" />
+    <state x="1183" y="369" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588778828765">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1183" y="369" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1588778828765" />
+    <state x="761" y="264" key="FileChooserDialogImpl" timestamp="1588785017183">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="761" y="264" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1588785017183" />
+    <state width="2539" height="264" key="GridCell.Tab.0.bottom" timestamp="1588785347197">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347197" />
+    <state width="2539" height="264" key="GridCell.Tab.0.center" timestamp="1588785347196">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="264" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347196" />
+    <state width="2539" height="264" key="GridCell.Tab.0.left" timestamp="1588785347196">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="264" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347196" />
+    <state width="2539" height="264" key="GridCell.Tab.0.right" timestamp="1588785347196">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="264" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347196" />
+    <state x="1109" y="293" key="run.anything.popup" timestamp="1588775892671">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1109" y="293" key="run.anything.popup/0.0.2560.1050@0.0.2560.1050" timestamp="1588775892671" />
   </component>
 </project>
