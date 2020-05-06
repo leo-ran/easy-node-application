@@ -1,0 +1,31 @@
+{
+  "name": "@easy-node/application",
+  "version": "0.0.1-dev.1",
+  "main": "./dist/index.js",
+  "license": "MIT",
+  "keywords": [
+    "@easy-node",
+    "@easy-node/application"
+  ],
+  "scripts": {
+    "test": "mocha --watch",
+    "doc": "typedoc  --tsconfig tsconfig.json",
+    "build": "del-cli ./dist & del-cli ./docs & npm run doc & tsc",
+    "pub": "npm publish --access public",
+    "serve": "ts-node-dev ./test/MyServer"
+  },
+  "repository": {
+    "url": "https://github.com/leo-ran/easy-node-application.git",
+    "type": "github"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/chai": "^4.2.7",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "del-cli": "^3.0.0",
+    "mocha": "^7.0.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typedoc": "^0.17.6"
+  }
+}
