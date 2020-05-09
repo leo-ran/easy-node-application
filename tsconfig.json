@@ -61,18 +61,18 @@
     // require json file
     "resolveJsonModule": true,
     /* Experimental Options */
-     "experimentalDecorators": true,        /* Enables experimental support for ES7 decorators. */
-     "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorators. */
+     "experimentalDecorators": true,        /* Enables experimental support for ES7 decorator. */
+     "emitDecoratorMetadata": true,         /* Enables experimental support for emitting type metadata for decorator. */
 
     /* Advanced Options */
     "forceConsistentCasingInFileNames": true  /* Disallow inconsistently-cased references to the same file. */
   },
   "include": [
-    "./src/**/*"
+    "./src/**/*",
+    "./test/**/*"
   ],
   "exclude": [
-    "node_modules",
-    "./src/**/*.spec.ts"
+    "node_modules"
   ],
   "typedocOptions": {
     "mode": "file",

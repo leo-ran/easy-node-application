@@ -10,8 +10,8 @@
   ],
   "scripts": {
     "test": "mocha --watch",
-    "doc": "typedoc  --tsconfig tsconfig.json",
-    "build": "del-cli ./dist & del-cli ./docs & npm run doc & tsc",
+    "doc": "typedoc  --tsconfig build.tsconfig.json",
+    "build": "del-cli ./dist & del-cli ./docs & npm run doc & tsc --build build.tsconfig.json",
     "pub": "npm publish --access public",
     "serve": "ts-node-dev ./test/MyServer"
   },
@@ -20,7 +20,7 @@
     "type": "github"
   },
   "dependencies": {
-    "@easy-node/reflect": "^0.0.1-dev.3",
+    "@easy-node/reflect": "^0.0.2@beta",
     "@easy-node/server": "^0.0.1-dev.2",
     "yaml": "^1.9.2"
   },

@@ -1,0 +1,21 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var HttpMethod;
+(function (HttpMethod) {
+    HttpMethod["GET"] = "GET";
+    HttpMethod["POST"] = "POST";
+    HttpMethod["PUT"] = "PUT";
+    HttpMethod["PATCH"] = "PATCH";
+    HttpMethod["DELETE"] = "DELETE";
+    HttpMethod["COPY"] = "COPY";
+    HttpMethod["HEAD"] = "HEAD";
+    HttpMethod["OPTIONS"] = "OPTIONS";
+    HttpMethod["LINK"] = "LINK";
+    HttpMethod["UNLINK"] = "UNLINK";
+    HttpMethod["PURGE"] = "PURGE";
+    HttpMethod["LOCK"] = "LOCK";
+    HttpMethod["UNLOCK"] = "UNLOCK";
+    HttpMethod["PROPFIND"] = "PROPFIND";
+    HttpMethod["VIEW"] = "VIEW";
+    HttpMethod["ALL"] = "ALL";
+})(HttpMethod = exports.HttpMethod || (exports.HttpMethod = {}));

@@ -2,27 +2,37 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25bdd677-a90a-4bd2-8bcf-26b1a302e44c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/AbstractModule.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ControllerSet.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/EnApplication.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/EnApplication.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/HttpMethod.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/ModuleSet.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/AbstractRequestDecorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnControllerDecorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnGetDecorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnModuleDecorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnOptionsDecorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/EnPostDecorator.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/decorators/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/interface.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/server/_HttpServer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lib/server/_HttpsServer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build.tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/Application.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/constants/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorator/http/EnApplicationDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorator/http/EnModuleDecorator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/decorator/http/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MyApplication.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/MyApplication.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/modules/app/AppModule.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mocharc.json" beforeDir="false" afterPath="$PROJECT_DIR$/.mocharc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/AbstractModule.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ControllerSet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/EnApplication.spec.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/EnApplication.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/HttpMethod.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/constants/HttpMethod.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/ModuleSet.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/AbstractRequestDecorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/EnControllerDecorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/EnGetDecorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/EnModuleDecorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/EnOptionsDecorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/EnPostDecorator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/decorators/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/interface.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/_HttpServer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/server/_HttpsServer.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,21 +54,47 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../reflect" />
-    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="ts.external.directory.path" value="D:\Program Files\JetBrains\WebStorm 2019.3.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\easy-node\application\src\lib" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\easy-node\application" />
       <recent name="H:\easy-node\application\src\lib" />
       <recent name="H:\easy-node\application\src\lib\decorators" />
       <recent name="H:\easy-node\application\src" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\easy-node\application\test" />
       <recent name="H:\easy-node\application" />
+      <recent name="H:\easy-node\application\src\lib\decorator\http" />
+      <recent name="H:\easy-node\application\src\lib\decorators" />
+      <recent name="H:\easy-node\application\src\lib\decorators\http" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="npm.test">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="doc" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="doc" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="test" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -72,6 +108,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.test" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.doc" />
       </list>
     </recent_temporary>
   </component>
@@ -98,7 +136,15 @@
       <option name="presentableId" value="Default" />
       <updated>1588772144313</updated>
       <workItem from="1588772145910" duration="6804000" />
-      <workItem from="1588778972666" duration="9904000" />
+      <workItem from="1588778972666" duration="10926000" />
+      <workItem from="1588835633194" duration="13072000" />
+      <workItem from="1588911245366" duration="11193000" />
+      <workItem from="1588943348115" duration="58000" />
+      <workItem from="1588943620058" duration="39000" />
+      <workItem from="1588952716571" duration="4811000" />
+      <workItem from="1588991533866" duration="6225000" />
+      <workItem from="1589022547990" duration="799000" />
+      <workItem from="1589023402479" duration="2591000" />
     </task>
     <servers />
   </component>
@@ -106,34 +152,46 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="786" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1588779196379">
+    <state x="989" y="315" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588992788697">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="786" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1588779196379" />
-    <state x="1183" y="369" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588778828765">
+    <state x="989" y="315" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1588992788697" />
+    <state x="786" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1588956458049">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="1183" y="369" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1588778828765" />
-    <state x="761" y="264" key="FileChooserDialogImpl" timestamp="1588785017183">
+    <state x="786" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1050@0.0.2560.1050" timestamp="1588956458049" />
+    <state x="1183" y="369" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1588955949803">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state x="761" y="264" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1588785017183" />
-    <state width="2539" height="264" key="GridCell.Tab.0.bottom" timestamp="1588785347197">
+    <state x="1183" y="369" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.2560.1050@0.0.2560.1050" timestamp="1588955949803" />
+    <state x="761" y="264" key="FileChooserDialogImpl" timestamp="1589025923621">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2539" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347197" />
-    <state width="2539" height="264" key="GridCell.Tab.0.center" timestamp="1588785347196">
+    <state x="761" y="264" key="FileChooserDialogImpl/0.0.2560.1050@0.0.2560.1050" timestamp="1589025923621" />
+    <state width="2539" height="264" key="GridCell.Tab.0.bottom" timestamp="1589025994404">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2539" height="264" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347196" />
-    <state width="2539" height="264" key="GridCell.Tab.0.left" timestamp="1588785347196">
+    <state width="2539" height="264" key="GridCell.Tab.0.bottom/0.0.2560.1050@0.0.2560.1050" timestamp="1589025994404" />
+    <state width="2539" height="264" key="GridCell.Tab.0.center" timestamp="1589025994404">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2539" height="264" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347196" />
-    <state width="2539" height="264" key="GridCell.Tab.0.right" timestamp="1588785347196">
+    <state width="2539" height="264" key="GridCell.Tab.0.center/0.0.2560.1050@0.0.2560.1050" timestamp="1589025994404" />
+    <state width="2539" height="264" key="GridCell.Tab.0.left" timestamp="1589025994404">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
-    <state width="2539" height="264" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1588785347196" />
+    <state width="2539" height="264" key="GridCell.Tab.0.left/0.0.2560.1050@0.0.2560.1050" timestamp="1589025994404" />
+    <state width="2539" height="264" key="GridCell.Tab.0.right" timestamp="1589025994404">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state width="2539" height="264" key="GridCell.Tab.0.right/0.0.2560.1050@0.0.2560.1050" timestamp="1589025994404" />
+    <state x="781" y="167" key="SettingsEditor" timestamp="1589023288018">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="781" y="167" key="SettingsEditor/0.0.2560.1050@0.0.2560.1050" timestamp="1589023288018" />
+    <state x="1071" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588845472353">
+      <screen x="0" y="0" width="2560" height="1050" />
+    </state>
+    <state x="1071" y="437" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2560.1050@0.0.2560.1050" timestamp="1588845472353" />
     <state x="1109" y="293" key="run.anything.popup" timestamp="1588775892671">
       <screen x="0" y="0" width="2560" height="1050" />
     </state>
